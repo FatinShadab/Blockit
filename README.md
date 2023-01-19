@@ -1,3 +1,4 @@
+### Blockit
 A simple python script that allows you to block or unblock any website on your local machine. The script uses the hosts file to block or unblock websites.
 
 ### Requirements
@@ -10,37 +11,34 @@ A simple python script that allows you to block or unblock any website on your l
     - prettytable python module
 
 ### Usage
-Run the script using python
-The script will prompt you to enter a command
-The commands are HOME, BLOCK, UNBLOCK, LIST, MASTERPASS, HELP, EXIT
-HOME
-Shows the home screen of the script
+    Run the script using python
+    The script will prompt you to enter a command
+    The commands are HOME, BLOCK, UNBLOCK, LIST, MASTERPASS, HELP, EXIT 
 
-BLOCK
-Prompts you to enter a website to block. It will then block the website by adding an entry to the hosts file.
+#### HOME
+> Shows the home screen of the script
 
-UNBLOCK
-Prompts you to enter a website to unblock. It will then unblock the website by removing the entry from the hosts file.
+#### BLOCK
+> Prompts you to enter a website to block. It will then block the website by adding an entry to the hosts file.
 
-LIST
-Lists all the blocked websites
+#### UNBLOCK
+> Prompts you to enter a website to unblock. It will then unblock the website by removing the entry from the hosts file.
 
-MASTERPASS
-Allows you to set or update the master password. The master password is required to perform certain actions.
+#### LIST
+> Lists all the blocked websites
 
-HELP
-Displays some troubleshoot
+#### MASTERPASS
+> Allows you to set or update the master password. The master password is required to perform certain actions.
 
-EXIT
-Exits the script
+#### HELP
+> Displays some troubleshoot
+
+#### EXIT
+> Exits the script
 
 ### Note
-This script has been developed and tested on Windows.
-The script uses the hosts file located at C:\Windows\System32\drivers\etc\hosts
-Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+    - This script has been developed and tested on Windows.
+    - The script uses the hosts file located at C:\Windows\System32\drivers\etc\hosts
 
 ### License
 MIT
