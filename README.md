@@ -10,6 +10,16 @@ A simple python script that allows you to block or unblock any website on your l
     - typing python module
     - prettytable python module
 
+### Installation
+    > To Run the python script
+    
+    git clone https://github.com/username/Blockit.git
+    cd Blockit
+    pip install -r requirements.txt
+    python app.py
+
+    > OR use the Blockit.exe in windows.
+
 ### Usage
     Run the script using python
     The script will prompt you to enter a command
@@ -38,9 +48,10 @@ A simple python script that allows you to block or unblock any website on your l
 
 ### Note
     - This script has been developed and tested on Windows.
+    - To use the script or exe file, we have to run them as administor
     - The script uses the hosts file located at C:\Windows\System32\drivers\etc\hosts
 
 ### License
-MIT
+>MIT
 
-This script is for educational and personal use only. Use at your own risk.
+#### This script is for educational and personal use only. Use at your own risk.
