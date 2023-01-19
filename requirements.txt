@@ -1,0 +1,4 @@
+commonmark==0.9.1
+prettytable==3.6.0
+Pygments==2.14.0
+wcwidth==0.2.6
